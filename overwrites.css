@@ -1,0 +1,275 @@
+html {
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+hr {
+	border: 2px solid rgba(0,0,0,0.07);
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.3;
+}
+
+p span {
+	font-weight: bold;
+	border-bottom: 0px solid #fff;
+	transition: 0.3s;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+}
+
+p span:hover {
+	border-width: 3px;
+	transition: 0.3s;
+}
+
+span.art {
+	background: -webkit-linear-gradient(left, #ff2e4a, #f2231d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span.climate {
+	background: -webkit-linear-gradient(left, #04D4AA, #04d473);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span.youth {
+	background: -webkit-linear-gradient(left, #F29805, #f28b05);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span.elderly {
+	background: -webkit-linear-gradient(left, #142cb8, #18298C);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span.sport {
+	background: -webkit-linear-gradient(left, #ffd000, #ffbf00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.art {
+	border-color: #FF6662;
+}
+
+.btn.art {
+	background: #FF6662;
+	color: #fff;
+}
+
+.climate {
+	border-color: #04D4AA;
+}
+
+.btn.climate {
+	background: #04D4AA;
+	color: #fff;
+}
+
+.youth {
+	border-color: #F29805;
+}
+
+.btn.youth {
+	background: #F29805;
+	color: #fff;
+}
+
+.elderly {
+	border-color: #18298C;
+}
+
+.btn.elderly {
+	background: #18298C;
+	color: #fff;
+}
+
+.sport {
+	border-color: #F5CF1D;
+}
+
+.btn.sport {
+	background: #F5CF1D;
+	color: #fff;
+}
+
+.card {
+	border-radius: 0.4em;
+	border: 3px solid;
+}
+
+.card.collapse.show {
+	flex-shrink:initial;
+	opacity: 1;
+	transition: opacity 0.15s
+}
+
+.card.collapse:not(.show) {
+	display: block;
+	opacity: 0.2;
+	flex-shrink:initial;
+	transition: opacity 0.15s
+}
+
+.navbar {
+	padding: 0;
+}
+
+.no-transition {
+  -webkit-transition: height 0.001s;
+  -moz-transition: height 0.001s;
+  -ms-transition: height 0.001s;
+  -o-transition: height 0.001s;
+  transition: height 0.001s;
+}
+
+.main-navigation ul {
+	display: block;
+}
+
+ul.menu {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+	ul.menu {
+    	text-align: center;
+	}
+	
+	ul li.nav-link a {
+    	padding: 0.7em 2em !important;
+  		background-color: rgba(0,0,0,0) !important;
+	}
+	
+	ul.menu li {
+		background-color: rgba(0,0,0,0.07) !important;
+	}
+}
+
+ul.menu li {
+	margin-bottom: 0.8em;
+	padding-left: 0;
+	border-radius: 0.5em;
+}
+
+ul li.nav-link a {
+	position: relative;
+}
+
+ul li.nav-link a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.625em solid transparent;
+	border-right-color: #f4f2f5;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -0.312em;
+	margin-left: -0.625em;
+}
+
+ul li.nav-link a {
+	background-color: #f4f2f5;
+	border-radius: 0.5em;
+	text-decoration: none;
+    color: #000;
+    padding: 0.7em 0.9em;
+}
+
+ul li.nav-link a:hover {
+	background-color: rgba(0,0,0,0.17);
+}
+
+ul li.nav-link a.active {
+	background-color: rgba(0,0,0,2);
+}
+  
+.footer ul {
+	font-size: 0.9em;
+	list-style: none;
+	margin-left:-40px;
+}
+
+.footer ul li {
+	padding-top: 0.3em;
+}
+
+.footer ul li a {
+	color: #000;
+}
+
+.footer h2 {
+	font-size: 1em;
+}
+
+p.small {
+	font-size: 1em;
+}
+
+p {
+}
+
+@media screen and (min-width: 750px) {
+	p {
+		/*max-width: 60ch;*/
+		text-align: justify;
+		text-justify: inter-word;
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
+	}
+	
+	.wp-block-image figure.alignright {
+		margin-right: -20% !important;
+	}
+	.wp-block-image figure.alignleft {
+		margin-left: -5% !important;
+	}
+}
+
+@media screen and (min-width: 950px) {
+	.wp-block-image figure.alignleft {
+		margin-left: -20% !important;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.wp-block-image .alignright, .wp-block-image .alignleft  {
+		float: none !important;
+		margin: 0 auto !important;
+	}
+}
+
+.wp-block-image figcaption {
+	color: #888;
+}
+
+.post-thumbnail img {
+	border-radius: 1em;
+	border: 4px solid #fff;
+}
+
+.category-sport .post-thumbnail img {
+	border-color: orange;
+}
+
+.category-altenpflege .post-thumbnail img {
+	border-color: blue;
+}
