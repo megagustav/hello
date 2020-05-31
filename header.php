@@ -18,9 +18,9 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<script src="https://kit.fontawesome.com/46038f1888.js" crossorigin="anonymous"></script>
 	
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/overwrites.css">
+    <link rel="stylesheet" href="https://use.typekit.net/puq5ttk.css">
 
 	<?php wp_head(); ?>
 </head>
@@ -30,7 +30,7 @@
 <div id="page" class="container-fluid">
 	<a class="sr-only sr-only-focusable" href="#primary"><?php esc_html_e( 'Skip to content', 'hello' ); ?></a>
 
-	<header id="masthead" class="col-md-10 offset-md-1 col-lg-8 offset-lg-3">
+	<header id="masthead" class="col-md-10 offset-md-1 col-lg-10 offset-lg-2">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -53,7 +53,7 @@
 		<div class="row justify-content-between">
 			<div class="col-md-9 mr-auto">
 				<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="/HELLO_logo.png" height="100" class="d-inline-block" alt="">
+					<object data="/hello_logo.svg" height="200" class="hero" type="image/svg+xml"></object>
 				</a>
 			</div>
 			<div class="col-12 d-block d-sm-none text-center">
