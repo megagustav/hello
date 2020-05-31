@@ -11,7 +11,7 @@
 
 ?>
 
-	<section class="col-md-10 offset-md-1 col-lg-6 offset-lg-3 mb-5 pb-5">
+	<section class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mb-5 pb-5">
 		
 		<div class="mt-5">
 			<div class="row px-0 alert alert-primary" role="alert">
