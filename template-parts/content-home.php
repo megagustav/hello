@@ -24,19 +24,19 @@
  
  	<div class="row mt-5 pt-3 mb-4">
 		<div class="col">
-			<a class="col-auto btn btn-primary btn-block category-kunst" href="/category/kunst" role="button">Kunst</a>
+			<a class="col-auto btn btn-primary btn-block category-kunst" href="category/kunst" role="button">Kunst</a>
 		</div>
 		<div class="col">
-			<a class="col-auto btn btn-primary btn-block category-klima" href="/category/klima" role="button">Klima</a>
+			<a class="col-auto btn btn-primary btn-block category-klima" href="category/klima" role="button">Klima</a>
 		</div>
 		<div class="col">
-			<a class="col-auto btn btn-primary btn-block category-jugend" href="/category/jugend" role="button">Jugend</a>
+			<a class="col-auto btn btn-primary btn-block category-jugend" href="category/jugend" role="button">Jugend</a>
 		</div>
 		<div class="col">
-			<a class="col-auto btn btn-primary btn-block category-altenpflege" href="/category/altenpflege" role="button">Altenpflege</a>
+			<a class="col-auto btn btn-primary btn-block category-altenpflege" href="category/altenpflege" role="button">Altenpflege</a>
 		</div>
 		<div class="col">
-			<a class="col-auto btn btn-primary btn-block category-sport" href="/category/sport" role="button">Sport</a>
+			<a class="col-auto btn btn-primary btn-block category-sport" href="category/sport" role="button">Sport</a>
 		</div>
  	</div>
  
