@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class=" col-md-8 offset-md-3">
+	<main id="primary" class="col-md-10 offset-md-1 col-lg-10 offset-lg-2">
 
 		<?php
 		while ( have_posts() ) :
