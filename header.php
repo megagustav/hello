@@ -53,7 +53,7 @@
 		<div class="row justify-content-between">
 			<div class="col-md-9 mr-auto">
 				<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<object data="/hello_logo.svg" height="200" class="hero" type="image/svg+xml"></object>
+					<object data="/hello_logo.svg" height="300" class="hero" type="image/svg+xml"></object>
 				</a>
 			</div>
 			<div class="col-12 d-block d-sm-none text-center">
