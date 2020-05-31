@@ -60,71 +60,34 @@ span.sport {
 }
 
 
-.art {
+.category-kunst .card {
 	border-color: #FF6662;
+	color: #000;
 }
 
-.btn.art {
-	background: #FF6662;
-	color: #fff;
-}
-
-.climate {
+.category-klima .card {
 	border-color: #04D4AA;
+	color: #000;
 }
 
-.btn.climate {
-	background: #04D4AA;
-	color: #fff;
-}
-
-.youth {
+.category-jugend .card {
 	border-color: #F29805;
+	color: #000;
 }
 
-.btn.youth {
-	background: #F29805;
-	color: #fff;
-}
-
-.elderly {
+.category-altenpflege .card {
 	border-color: #18298C;
+	color: #000;
 }
 
-.btn.elderly {
-	background: #18298C;
-	color: #fff;
-}
-
-.sport {
+.category-sport .card {
 	border-color: #F5CF1D;
-}
-
-.btn.sport {
-	background: #F5CF1D;
-	color: #fff;
+	color: #000;
 }
 
 .card {
-	border-radius: 0.4em;
+	border-radius: 0.35em;
 	border: 3px solid;
-}
-
-.card.collapse.show {
-	flex-shrink:initial;
-	opacity: 1;
-	transition: opacity 0.15s
-}
-
-.card.collapse:not(.show) {
-	display: block;
-	opacity: 0.2;
-	flex-shrink:initial;
-	transition: opacity 0.15s
-}
-
-.navbar {
-	padding: 0;
 }
 
 .no-transition {
@@ -272,4 +235,14 @@ p {
 
 .category-altenpflege .post-thumbnail img {
 	border-color: blue;
+}
+
+.card-img-top {
+	max-height: 15em;
+	overflow: hidden;
+}
+
+.card-img-top img {
+	height: auto;
+	width: 100%;
 }

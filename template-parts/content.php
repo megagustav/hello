@@ -31,13 +31,8 @@
 
 	<div class="entry-content">
 	
-		<!--?php
-		if ( is_singular() ) :
-			
-		else :
-			?-->
-	
 		<?php the_content(); ?>
+		
 	</div><!-- .entry-content -->
 
 </article><!-- #post-<?php the_ID(); ?> -->

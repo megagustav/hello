@@ -193,4 +193,4 @@ function atg_menu_classes($classes, $item, $args) {
   }
   return $classes;
 }
-add_filter('nav-item', 'nav-link', 1, 3);
+add_filter('col-6', 'col-6', 1, 3);

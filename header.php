@@ -27,10 +27,10 @@
 
 <body <?php body_class(''); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="container-fluid col-md-8 offset-md-3">
+<div id="page" class="container-fluid">
 	<a class="sr-only sr-only-focusable" href="#primary"><?php esc_html_e( 'Skip to content', 'hello' ); ?></a>
 
-	<header id="masthead">
+	<header id="masthead" class="col-md-10 offset-md-1 col-lg-8 offset-lg-3">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
