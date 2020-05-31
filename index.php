@@ -15,34 +15,67 @@
 get_header();
 ?>
 
-	<main id="primary" class=" col-md-8 offset-md-3">
-
-		<?php
-		if ( have_posts() ) :
-
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-	</main><!-- #main -->
+<section class="col-md-12">
+	<?php 
+	// the query
+	$wpb_all_query = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+ 
+	<?php if ( $wpb_all_query->have_posts() ) : ?>
+ 
+ 	<div class="row mt-5 pt-3 mb-4">
+		<div class="col">
+			<a class="col-auto btn btn-primary btn-block category-kunst" href="/category/kunst" role="button">Kunst</a>
+		</div>
+		<div class="col">
+			<a class="col-auto btn btn-primary btn-block category-klima" href="/category/klima" role="button">Klima</a>
+		</div>
+		<div class="col">
+			<a class="col-auto btn btn-primary btn-block category-jugend" href="/category/jugend" role="button">Jugend</a>
+		</div>
+		<div class="col">
+			<a class="col-auto btn btn-primary btn-block category-altenpflege" href="/category/altenpflege" role="button">Altenpflege</a>
+		</div>
+		<div class="col">
+			<a class="col-auto btn btn-primary btn-block category-sport" href="/category/sport" role="button">Sport</a>
+		</div>
+ 	</div>
+ 
+	<div class="row">
+ 		
+		<!-- the loop -->
+		<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+			
+			<div <?php post_class('col-md-4 mb-3'); ?>>
+				<a href="<?php the_permalink(); ?>">
+					<div class="card mb-3">
+						<div class="card-img-top">
+							<?php the_post_thumbnail(); ?>
+						</div>
+					  <div class="card-body">
+						<h5 class="card-title">
+							<?php the_title(); ?>
+						</h5>
+						<p class="card-text">
+							<small class="text-muted">
+								<?php the_date( 'M Y' ); ?>
+							</small>
+						</p>
+					  </div>
+					</div>
+				</a>
+			</div>
+			
+		<?php endwhile; ?>
+		<!-- end of the loop -->
+ 
+	</div>
+ 
+		<?php wp_reset_postdata(); ?>
+ 
+	<?php else : ?>
+		<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+	<?php endif; ?>
+</section>
 
 <?php
 get_sidebar();
