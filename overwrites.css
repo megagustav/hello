@@ -1,4 +1,9 @@
 html {
+	font-family: ten-oldstyle, serif;
+}
+
+#page {
+	max-width: 1600px;
 }
 
 img {
@@ -11,8 +16,11 @@ hr {
 }
 
 p {
-	font-size: 1.2em;
+	font-size: 1.4em;
 	line-height: 1.3;
+	font-family: 'verdigris-mvb-pro-text', serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 p span {
@@ -59,30 +67,64 @@ span.sport {
 	-webkit-text-fill-color: transparent;
 }
 
-
 .category-kunst .card {
 	border-color: #FF6662;
 	color: #000;
+}
+.btn.category-kunst {
+	background: #FF6662;
+	border: 5px solid #FF6662;
+}
+.btn.category-kunst:hover {
+	border-color: #de5854;
 }
 
 .category-klima .card {
 	border-color: #04D4AA;
 	color: #000;
 }
+.btn.category-klima {
+	background: #04D4AA;
+	border: 5px solid #04D4AA;
+}
+.btn.category-klima:hover {
+	border-color: #00ba95;
+}
 
 .category-jugend .card {
 	border-color: #F29805;
 	color: #000;
+}
+.btn.category-jugend {
+	background: #F29805;
+	border: 5px solid #F29805;
+}
+.btn.category-jugend:hover {
+	border-color: #db8a04;
 }
 
 .category-altenpflege .card {
 	border-color: #18298C;
 	color: #000;
 }
+.btn.category-altenpflege {
+	background: #18298C;
+	border: 5px solid #18298C;
+}
+.btn.category-altenpflege:hover {
+	border-color: #101b5c;
+}
 
 .category-sport .card {
-	border-color: #F5CF1D;
+	border-color: #f5c400;
 	color: #000;
+}
+.btn.category-sport {
+	background: #f5c400;
+	border: 5px solid #f5c400;
+}
+.btn.category-sport:hover {
+	border-color: #e6b909;
 }
 
 .card {
@@ -238,11 +280,15 @@ p {
 }
 
 .card-img-top {
-	max-height: 15em;
+	max-height: 13em;
 	overflow: hidden;
 }
 
 .card-img-top img {
 	height: auto;
 	width: 100%;
+}
+
+object.hero {
+	width: 100% !important;
 }
