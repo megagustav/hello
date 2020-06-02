@@ -27,8 +27,8 @@
 		
 		<hr>
 		
-		<div class="row footer">
-			<div class="text-left mb-5 col-4 col-sm-3">
+		<div class="row footer px-0 px-sm-3">
+			<div class="text-left mb-5 col-4 col-sm-3 px-0">
 				<!--h2>Lala</h2-->
 				<ul>
 					<li><i class="fab fa-fw fa-instagram-square"></i> Instagram</li>
@@ -37,7 +37,7 @@
 					<li><i class="fas fa-fw fa-envelope-square"></i> Newsletter</li>
 				</ul>
 			</div>
-			<div class="col-4 text-left text-center text-sm-left mb-5 col-sm-3">
+			<div class="col-4 text-left text-center text-sm-left mb-5 col-sm-3 px-0">
 				<!--h2>HELLO</h2-->
 				<ul>
 					<li><a href="/projekte" target="_blank">Projekte</a></li>
@@ -46,7 +46,7 @@
 					<li><a href="/mitmachen" target="_blank">Mitmachen</a></li>
 				</ul>
 			</div>
-			<div class="col-4 offset-sm-2 text-right mb-5">
+			<div class="col-4 offset-sm-2 text-right mb-5 px-0">
 				<!--h2>Lala</h2-->
 				<ul>
 					<li>Kontakt</li>
