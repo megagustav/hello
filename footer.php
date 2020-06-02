@@ -31,10 +31,10 @@
 			<div class="text-left mb-5 col-4 col-sm-3 px-0">
 				<!--h2>Lala</h2-->
 				<ul>
-					<li><i class="fab fa-fw fa-instagram-square"></i> Instagram</li>
-					<li><i class="fab fa-fw fa-facebook-square"></i> Facebook</li>
-					<li><i class="fas fa-fw fa-envelope-square"></i> E-Mail</li>
-					<li><i class="fas fa-fw fa-envelope-square"></i> Newsletter</li>
+					<li><i class="fab fa-fw fa-instagram"></i> Instagram</li>
+					<li><i class="fab fa-fw fa-facebook"></i> Facebook</li>
+					<li><i class="fas fa-fw fa-envelope"></i> E-Mail</li>
+					<li><i class="fas fa-fw fa-at"></i> Newsletter</li>
 				</ul>
 			</div>
 			<div class="col-4 text-left text-center text-sm-left mb-5 col-sm-3 px-0">
