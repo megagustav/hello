@@ -32,9 +32,9 @@
 				<!--h2>Lala</h2-->
 				<ul>
 					<li><i class="fab fa-fw fa-instagram"></i> Instagram</li>
-					<li><i class="fab fa-fw fa-facebook"></i> Facebook</li>
-					<li><i class="fas fa-fw fa-envelope"></i> E-Mail</li>
-					<li><i class="fas fa-fw fa-at"></i> Newsletter</li>
+					<li><i class="fab fa-fw fa-facebook-f"></i> Facebook</li>
+					<li><i class="far fa-fw fa-envelope"></i> E-Mail</li>
+					<li><i class="far fa-fw fa-at"></i> Newsletter</li>
 				</ul>
 			</div>
 			<div class="col-4 text-left text-center text-sm-left mb-5 col-sm-3 px-0">
