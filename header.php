@@ -27,33 +27,18 @@
 
 <body <?php body_class(''); ?>>
 <?php wp_body_open(); ?>
-<div id="page" class="container-fluid">
+<div id="page" class="container">
 	<a class="sr-only sr-only-focusable" href="#primary"><?php esc_html_e( 'Skip to content', 'hello' ); ?></a>
 
 	<header id="masthead" class="col-md-10 offset-md-1 col-lg-10 offset-lg-2">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$hello_description = get_bloginfo( 'description', 'display' );
-			if ( $hello_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $hello_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
 		
 		<div class="row justify-content-between">
 			<div class="col-md-9 mr-auto">
-				<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<object data="/hello_logo.svg" height="300" class="hero" type="image/svg+xml"></object>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<svg xmlns="http://www.w3.org/2000/svg"
+	 viewBox="0 50 785 440" class="logo-container" width="551">
+						<image xlink:href="/hello_logo.svg" class="logo" src="/hello_logo.png"/>
+					</svg>
 				</a>
 			</div>
 			<div class="col-12 d-block d-sm-none text-center">
