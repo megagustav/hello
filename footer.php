@@ -20,7 +20,7 @@
 					Wir freuen uns auf Sie!
 				</div>
 				<div class="col-md-3">
-					<a href="/kontakt"><button type="button" class="btn btn-block btn-primary"><i class="fas fa-lg fa-phone-square"></i> Kontakt</button></a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakt"><button type="button" class="btn btn-block btn-primary"><i class="fas fa-lg fa-phone-square"></i> Kontakt</button></a>
 				</div>
 			</div>
 		</div>
@@ -40,18 +40,18 @@
 			<div class="col-4 text-left text-center text-sm-left mb-5 col-sm-3 px-0">
 				<!--h2>HELLO</h2-->
 				<ul>
-					<li><a href="/projekte" target="_blank">Projekte</a></li>
-					<li><a href="/uber" target="_blank">Über</a></li>
-					<li><a href="/transparenz" target="_blank">Transparenz</a></li>
-					<li><a href="/mitmachen" target="_blank">Mitmachen</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>projekte" target="_blank">Projekte</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>uber" target="_blank">Über</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>transparenz" target="_blank">Transparenz</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>mitmachen" target="_blank">Mitmachen</a></li>
 				</ul>
 			</div>
 			<div class="col-4 offset-sm-2 text-right mb-5 px-0">
 				<!--h2>Lala</h2-->
 				<ul>
-					<li>Kontakt</li>
-					<li>Impressum</li>
-					<li>Datenschutz</li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakt" target="_blank">Kontakt</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>impressum" target="_blank">Impressum</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>datenschutz" target="_blank">Datenschutz</a></li>
 					<li>&copy; <?php echo date("Y") ?></li>
 				</ul>
 			</div>
