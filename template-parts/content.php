@@ -12,7 +12,7 @@
 
 	<header class="row bg-light py-3">
 		<div class="col-md-4">
-			<a href="/projekte"><button type="button" class="btn btn-muted mb-4"><i class="fas fa-arrow-circle-left"></i> Alle Projekte</button></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>projekte"><button type="button" class="btn btn-muted mb-4"><i class="fas fa-arrow-circle-left"></i> Alle Projekte</button></a>
 		<?php
 		if ( is_singular() ) :
 			the_title( '<h2>', '</h2>' );
