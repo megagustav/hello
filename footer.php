@@ -15,12 +15,12 @@
 		
 		<div class="mt-5">
 			<div class="row px-0 alert alert-primary" role="alert">
-				<div class="col-md-8 pb-3 pb-md-0">
+				<div class="col-md-9 pb-3 pb-md-0">
 					Sie möchten uns kennenlernen und sich unverbindlich informieren?
 					Wir freuen uns auf Sie!
 				</div>
-				<div class="col-md-4">
-					<a href="tel:0123456789"><button type="button" class="pl-2 btn btn-block btn-primary"><i class="float-left fas fa-3x fa-phone-square"></i> Anrufen <br><small>0123456789</small></button></a>
+				<div class="col-md-3">
+					<a href="/kontakt"><button type="button" class="btn btn-block btn-primary"><i class="fas fa-lg fa-phone-square"></i> Kontakt</button></a>
 				</div>
 			</div>
 		</div>

@@ -30,41 +30,35 @@
 <div id="page" class="container">
 	<a class="sr-only sr-only-focusable" href="#primary"><?php esc_html_e( 'Skip to content', 'hello' ); ?></a>
 
-	<header id="masthead" class="col-md-10 offset-md-1 col-lg-10 offset-lg-2">
-		
-		<div class="row justify-content-between">
-			<div class="col-md-9 mr-auto">
+	<header id="masthead" class="col-md-11 col-lg-10">
+								 
+		<div class="row">
+			<div class="pl-md-5 offset-lg-2 offset-md-1 col-md-7 col-lg-6">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<svg xmlns="http://www.w3.org/2000/svg"
+					<img src="/hello_logo.png" class="img-fluid logo mt-5"/>
+					<!--svg xmlns="http://www.w3.org/2000/svg"
 	 viewBox="0 50 785 440" class="logo-container" width="551">
 						<image xlink:href="/hello_logo.svg" class="logo" src="/hello_logo.png"/>
-					</svg>
+					</svg-->
 				</a>
 			</div>
-			<div class="col-12 d-block d-sm-none text-center">
-				<nav id="site-navigation" class="main-navigation">
-					<?php
-						wp_nav_menu(
-							array(
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'primary-menu'
-						)
-					);
-					?>
-				</nav><!-- #site-navigation -->
-			</div>
-			<div class="col-md-3 p-0 m-0 pt-md-5 d-none d-sm-block">
-				<nav id="site-navigation" class="main-navigation flex-column">
-					<?php
-						wp_nav_menu(
-							array(
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'primary-menu'
-						)
-					);
-					?>
-				</nav><!-- #site-navigation -->
-			</div>
+			<div class="col-md-4 py-md-5">
+				<nav class="navbar float-right justify-content-end navbar-expand-md navbar-light">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+					  <div class="collapse navbar-nav flex-column navbar-collapse" id="navbarNavAltMarkup">
+						<a class="nav-item nav-link" href="/">HELLO</a>
+						<a class="nav-item nav-link" href="/projekte">Projekte</a>
+						<a class="nav-item nav-link" href="/transparenz">Transparenz</a>
+						<a class="nav-item nav-link" href="/uber">Über Uns</a>
+						
+						<a class="nav-item nav-link" href="/mitmachen">Mitmachen</a>
+						<a class="nav-item nav-link" href="/kontakt">Kontakt</a>
+					  </div>
+		
+				</nav>
+			</div><!--/nav container-->
 		</div>
 	
 	</header><!-- #masthead -->
