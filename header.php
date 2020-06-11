@@ -48,13 +48,13 @@
 					<span class="navbar-toggler-icon"></span>
 				  </button>
 					  <div class="collapse navbar-nav flex-column navbar-collapse" id="navbarNavAltMarkup">
-						<a class="nav-item nav-link" href="/">HELLO</a>
-						<a class="nav-item nav-link" href="/projekte">Projekte</a>
-						<a class="nav-item nav-link" href="/transparenz">Transparenz</a>
-						<a class="nav-item nav-link" href="/uber">Über Uns</a>
+						<a class="nav-item nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>">HELLO</a>
+						<a class="nav-item nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/projekte">Projekte</a>
+						<a class="nav-item nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/transparenz">Transparenz</a>
+						<a class="nav-item nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/uber">Über Uns</a>
 						
-						<a class="nav-item nav-link" href="/mitmachen">Mitmachen</a>
-						<a class="nav-item nav-link" href="/kontakt">Kontakt</a>
+						<a class="nav-item nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/mitmachen">Mitmachen</a>
+						<a class="nav-item nav-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/kontakt">Kontakt</a>
 					  </div>
 		
 				</nav>
