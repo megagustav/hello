@@ -366,8 +366,8 @@ article img {
 	background: white;
 }
 
-.btn i, .btn svg {
-	padding-right: 0.3em;
+.btn .svg-inline--fa, .btn .svg-inline--fa {
+	margin-right: 0.3em;
 }
 
 .nobreak {
