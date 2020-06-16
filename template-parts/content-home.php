@@ -23,14 +23,14 @@
 	<hr>
 	<h2>Transparenz</h2>
 	<p>95 Prozent der uns anvertrauten Spendengelder werden direkt in unsere Projekte vor Ort eingesetzt — das ist unser Versprechen. Dass wir dieses Versprechen halten, belegen wir mit größtmöglicher Transparenz durch Zahlen, Daten und Fakten sowie durch regelmäßige Anwesenheit von HELLO und dem Stiftungs-Team bei Projekt-Realisierungen vor Ort.</p>
-	<p><a href="transparenz" target="_blank">Mehr über Transparenz <i class="far fa-arrow-circle-right"></i></a></p>
+	<p><a href="transparenz">Mehr über Transparenz <i class="far fa-arrow-circle-right"></i></a></p>
 </section>
 
 <section class="mt-5 pt-5 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 <hr>
 	<h2>Mitmachen</h2>
 	<p>Als unabhängige Stiftung möchten wir jeden dazu bewegen, aktiv zu werden &mdash; ob Einzelperson oder Unternehmen. Deshalb schaffen wir für alle die Möglichkeit, sich für gesellschaftlichen Wandel einzusetzen und Verantwortung zu übernehmen. Schreiben Sie uns, wenn Sie ein interessantes Projekt leiten, das unseren Förderkriterien entspricht und sie nach einem verläßlichen Partner suchen. </p>
-	<p><a href="mitmachen" target="_blank">Machen Sie mit! <i class="far fa-arrow-circle-right"></i></a></p>
+	<p><a href="mitmachen">Machen Sie mit! <i class="far fa-arrow-circle-right"></i></a></p>
 </section>
 
 <section class="mt-5 pt-5 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
