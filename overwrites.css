@@ -178,6 +178,87 @@ span.sport:hover {
 	border-color: rgba(255, 255, 255, 0.3);
 }
 
+span.category{
+	font-weight: 400;
+	color: #fff;
+	padding: 0.1em 0.35em 0.17em;
+	border-radius: 0.27em;
+	margin-right: 0.3em;
+}
+
+span.category.date {
+	color: #004085;
+	background: #e8f1fa;
+	padding: 0.36em 0.45em;
+	font-family: 'pinecone-mvb', sans-serif;
+	font-size: 0.8em;
+	margin-left: -0.15em;
+	border-radius: 0.36em;
+}
+
+span.category.date:hover {
+	border: none;
+}
+
+/*span.category::before {
+	content: '';
+}*/
+
+span.Jugend {
+	background: #F29805;
+}
+
+span.Jugend::before {
+    content: "\f581";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
+span.Sport {
+	background: #d12e26;
+}
+
+span.Sport::before {
+	content: "\f45e";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
+span.Senioren {
+	background: #3d8a41;
+}
+
+span.Senioren::before {
+	content: "\f004";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
+span.Klima {
+	background: #4dafe6;
+}
+
+span.Klima::before {
+	content: "\f06c";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
+span.Kunst {
+	background: #9ebe43;
+}
+
+span.Kunst::before {
+	content: "\f618";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
 .btn {
 	font-family: 'pinecone-mvb', sans-serif;
 }
