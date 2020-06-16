@@ -49,7 +49,7 @@
 			</div>
 			<div class="col-md-4 py-md-5">
 				<nav class="navbar float-right justify-content-end navbar-expand-md navbar-light">
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				  <button id="navtoggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				  </button>
 					  <div class="collapse navbar-nav flex-column navbar-collapse" id="navbarNavAltMarkup">

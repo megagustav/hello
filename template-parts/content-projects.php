@@ -16,21 +16,21 @@
  
 	<?php if ( $wpb_all_query->have_posts() ) : ?>
  
- 	<div class="row my-4">
-		<div class="col">
-			<a class="mb-2 mb-sm-0 col-auto btn btn-primary btn-block nobreak category-kunst" href="category/kunst" role="button"><i class="fas fa-pencil-paintbrush"></i>Kunst</a>
+ 	<div class="row my-4 d-flex justify-content-between">
+		<div class="col-12 col-sm">
+			<a class="mb-2 col-auto btn btn-primary btn-block nobreak category-kunst" href="category/kunst" role="button"><i class="fas fa-pencil-paintbrush"></i>Kunst</a>
 		</div>
-		<div class="col">
-			<a class="col-auto btn btn-primary btn-block nobreak category-klima" href="category/klima" role="button"><i class="fas fa-leaf"></i>Klima</a>
+		<div class="col-12 col-sm">
+			<a class="mb-2 col-auto btn btn-primary btn-block nobreak category-klima" href="category/klima" role="button"><i class="fas fa-leaf"></i>Klima</a>
 		</div>
-		<div class="col">
-			<a class="col-auto btn btn-primary btn-block nobreak category-jugend" href="category/jugend" role="button"><i class="fas fa-grin-alt"></i>Jugend</a>
+		<div class="col-12 col-sm">
+			<a class="mb-2 col-auto btn btn-primary btn-block nobreak category-jugend" href="category/jugend" role="button"><i class="fas fa-grin-alt"></i>Jugend</a>
 		</div>
-		<div class="col">
-			<a class="col-auto btn btn-primary btn-block nobreak category-altenpflege" href="category/senioren" role="button"><i class="fas fa-heart"></i>Senioren</a>
+		<div class="col-12 col-sm">
+			<a class="mb-2 col-auto btn btn-primary btn-block nobreak category-altenpflege" href="category/senioren" role="button"><i class="fas fa-heart"></i>Senioren</a>
 		</div>
-		<div class="col">
-			<a class="col-auto btn btn-primary btn-block nobreak category-sport" href="category/sport" role="button"><i class="fas fa-tennis-ball"></i>Sport</a>
+		<div class="col-12 col-sm">
+			<a class="mb-2 col-auto btn btn-primary btn-block nobreak category-sport" href="category/sport" role="button"><i class="fas fa-tennis-ball"></i>Sport</a>
 		</div>
  	</div>
  
