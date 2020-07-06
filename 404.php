@@ -10,51 +10,18 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main id="primary">
 
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'hello' ); ?></h1>
-			</header><!-- .page-header -->
-
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'hello' ); ?></p>
-
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'hello' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$hello_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'hello' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$hello_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
+		<section class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+			<h2 class="text-danger">Fehler 404<br>
+				Die Seite konnte nicht gefunden werden</h2>
+			<p>Das kann schon mal vorkommen. Wahrscheinlich ertappen Sie uns gerade bei Wartungsarbeiten. Falls dieser Fehler erneut auftritt, informieren Sie uns doch bitte unter <a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakt" target="_blank">Kontakt</a>.</p>
+			<hr>
+			<h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>" target="_blank">zur Startseite <i class="fas fa-arrow-right"></i></a></h2>
+		</section>
 
 	</main><!-- #main -->
 
 <?php
+get_sidebar();
 get_footer();

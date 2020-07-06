@@ -32,23 +32,26 @@
 
 <body <?php body_class(''); ?>>
 <?php wp_body_open(); ?>
+
 <div id="page" class="container">
 	<a class="sr-only sr-only-focusable" href="#primary"><?php esc_html_e( 'Skip to content', 'hello' ); ?></a>
 
-	<header id="masthead" class="col-md-11 col-lg-10">
+	<header id="masthead">
 								 
-		<div class="row">
-			<div class="pl-md-5 offset-lg-2 offset-md-1 col-md-7 col-lg-6">
+		<div class="row px-3">
+			<div class="offset-lg-2 offset-md-1 col-md-7 col-lg-6 col-xl-5">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="/hello_logo.png" class="img-fluid logo mt-5"/>
+					<!--img src="/hello_logo.png" class="img-fluid logo mt-5"/-->
+					<img src="/hello_logo.svg" class="logo-container" alt="Monkey face" style="width: 100%; height: auto;">
 					<!--svg xmlns="http://www.w3.org/2000/svg"
-	 viewBox="0 50 785 440" class="logo-container" width="551">
+	 viewBox="0 50 785 310" class="logo-container" width="551">
 						<image xlink:href="/hello_logo.svg" class="logo" src="/hello_logo.png"/>
 					</svg-->
+					<h2 class="name">Die Stiftung</h2>
 				</a>
 			</div>
-			<div class="col-md-4 py-md-5">
-				<nav class="navbar float-right justify-content-end navbar-expand-md navbar-light">
+			<div class="col-md-4">
+				<nav class="navbar navbar-expand-md navbar-light">
 				  <button id="navtoggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				  </button>

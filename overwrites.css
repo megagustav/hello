@@ -6,17 +6,8 @@ body {
 	color: #3C3C3B;
 }
 
-a {
-	color: blue;
-}
-
-small a {
-	text-decoration: underline;
-	color: #6c757d!important;
-}
-
-a:hover {
-	color: darkblue;
+main:not(body.home) {
+	margin-top: 2em;
 }
 
 #page {
@@ -32,10 +23,28 @@ hr {
 	border: 2px solid rgba(0,0,0,0.07);
 }
 
+a {
+	color: blue;
+}
+
+a h2, h2 a {
+	color: #3C3C3B;
+}
+
+small a {
+	text-decoration: underline;
+	color: #6c757d!important;
+}
+
+a:hover {
+	color: darkblue;
+	text-decoration: none;
+}
+
 p {
 	font-size: 1.4em;
 	line-height: 1.3;
-	font-family: 'verdigris-mvb-pro-text', serif;
+	font-family: 'interstate', sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
@@ -49,9 +58,19 @@ p span {
 	hyphens: none;
 }
 
+p span:hover {
+	border-width: 3px;
+	transition: 0.3s;
+}
+
+p.card-text {
+	text-align: left !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'verdigris-mvb-pro-big', serif;
-	/*font-family: 'pinecone-mvb', sans-serif;*/
+	/*font-family: 'verdigris-mvb-pro-big', serif;*/
+	margin-left: -2px;
+	font-family: 'pinecone-mvb', sans-serif;
 	font-weight: 700;
 }
 
@@ -59,144 +78,51 @@ h2.entry-title {
 	font-family: 'pinecone-mvb', sans-serif;
 }
 
-p span:hover {
-	border-width: 3px;
-	transition: 0.3s;
+main h2 {
+	margin-bottom: 1em;
 }
 
-span.art {
-	background: -webkit-linear-gradient(left, #ff2e4a, #f2231d);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+h5.card-title {
+	color: #3C3C3B;
+	font-family: 'pinecone-mvb', sans-serif;
 }
 
-span.climate {
-	background: -webkit-linear-gradient(left, #04D4AA, #04d473);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
 
-span.youth {
-	background: -webkit-linear-gradient(left, #F29805, #f28b05);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
 
-span.elderly {
-	background: -webkit-linear-gradient(left, #142cb8, #18298C);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-span.sport {
-	background: -webkit-linear-gradient(left, #ffd000, #ffbf00);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-span:hover {
-	border-bottom: 2px solid;
-}
-
-span.art:hover {
-	border-color: #ff2e4a;
-}
-span.climate:hover {
-	border-color: #04D4AA;
-}
-span.youth:hover {
-	border-color: #F29805;
-}
-span.elderly:hover {
-	border-color: #142cb8;
-}
-span.sport:hover {
-	border-color: #ffd000;
-}
-
-.category-kunst .card {
-	border-color: #FF6662;
-	color: #000;
-}
-.btn.category-kunst {
-	background: #9ebe43;
-	border: 5px solid #9ebe43;
-}
-.btn.category-kunst:hover {
-	background: #9ebe43;
-	border-color: rgba(255, 255, 255, 0.3);
-}
-
-.category-klima .card {
-	border-color: #04D4AA;
-	color: #000;
-}
-.btn.category-klima {
-	background: #4dafe6;
-	border: 5px solid #4dafe6;
-}
-.btn.category-klima:hover {
-	background: #4dafe6;
-	border-color: rgba(255, 255, 255, 0.3);
-
-}
-.category-jugend .card {
-	border-color: #F29805;
-	color: #000;
-}
-.btn.category-jugend {
-	background: #F29805;
-	border: 5px solid #F29805;
-}
-.btn.category-jugend:hover {
-	background: #F29805;
-	border-color: rgba(255, 255, 255, 0.3);
-}
-
-.category-altenpflege .card {
-	border-color: #18298C;
-	color: #000;
-}
-.btn.category-altenpflege {
-	background: #3d8a41;
-	border: 5px solid #3d8a41;
-}
-.btn.category-altenpflege:hover {
-	background: #3d8a41;
-	border-color: rgba(255, 255, 255, 0.3);
-}
-.category-sport .card {
-	border-color: #f5c400;
-	color: #000;
-}
-.btn.category-sport {
-	background: #d12e26;
-	border: 5px solid #d12e26;
-}
-.btn.category-sport:hover {
-	background: #d12e26;
-	border-color: rgba(255, 255, 255, 0.3);
-}
-
-span.category{
-	font-weight: 400;
-	color: #fff;
-	padding: 0.1em 0.35em 0.17em;
-	border-radius: 0.27em;
-	margin-right: 0.3em;
-}
-
-span.category.date {
-	color: #004085;
-	background: #e8f1fa;
-	padding: 0.36em 0.45em;
+span.project_details {
+	padding: 0.36em 0.6em;
 	font-family: 'pinecone-mvb', sans-serif;
 	font-size: 0.8em;
-	margin-left: -0.15em;
 	border-radius: 0.36em;
+	display: inline-block;
 }
 
-span.category.date:hover {
+.category {
+	color: #fff;
+	font-weight: 400;
+}
+
+.category:not(:last-child) {
+	margin-left: 0.35em;
+}
+
+.category:first-child {
+	margin-left: 0em;
+}
+
+.date {
+	color: #004085;
+	background: #e8f1fa;
+	margin-top: 0.35em;
+}
+
+.tag {
+	color: #7c7f8f;
+	background: #edeff5;
+	margin-top: 0.35em;
+}
+
+span.project_details:hover {
 	border: none;
 }
 
@@ -204,63 +130,12 @@ span.category.date:hover {
 	content: '';
 }*/
 
-span.Jugend {
-	background: #F29805;
-}
-
-span.Jugend::before {
-    content: "\f581";
-	font-family: "Font Awesome 5 Pro"; 
-	font-weight: 900;
-	display: none;
-}
-
-span.Sport {
-	background: #d12e26;
-}
-
-span.Sport::before {
-	content: "\f45e";
-	font-family: "Font Awesome 5 Pro"; 
-	font-weight: 900;
-	display: none;
-}
-
-span.Senioren {
-	background: #3d8a41;
-}
-
-span.Senioren::before {
-	content: "\f004";
-	font-family: "Font Awesome 5 Pro"; 
-	font-weight: 900;
-	display: none;
-}
-
-span.Klima {
-	background: #4dafe6;
-}
-
-span.Klima::before {
-	content: "\f06c";
-	font-family: "Font Awesome 5 Pro"; 
-	font-weight: 900;
-	display: none;
-}
-
-span.Kunst {
-	background: #9ebe43;
-}
-
-span.Kunst::before {
-	content: "\f618";
-	font-family: "Font Awesome 5 Pro"; 
-	font-weight: 900;
-	display: none;
-}
-
 .btn {
 	font-family: 'pinecone-mvb', sans-serif;
+}
+
+.nobreak .svg-inline--fa, .nobreak .svg-inline--fa {
+	margin-right: 0.3em;
 }
 
 .btn-primary {
@@ -280,27 +155,19 @@ span.Kunst::before {
 	border-radius: 0.5em;
 }
 
-.btn-muted {
-	background-color: #dcebfa;
-	color: #384e63;
-}
-
-.btn-primary:hover {
-	background-color: darkblue;
-	border-color: rgba(255, 255, 255, 0.3);
+.back-btn {
+	float: left;
+	position: absolute;
+	z-index: 2;
+	margin: 1em 0 0 1em;
 }
 
 .card {
 	border-radius: 0.35em;
-	height: 24em;
+	height: 30em;
 	border: 3px solid #eee !important;
 	transition: 0.2s;
 	box-shadow: 0 6px 0 rgba(0,0,0,0), 0 0 15px rgba(0,0,0,0.02);
-}
-
-h5.card-title {
-	color: #3C3C3B;
-	font-family: 'pinecone-mvb', sans-serif;
 }
 
 .card:hover {
@@ -309,12 +176,55 @@ h5.card-title {
 	box-shadow: 0 6px 0 blue, 0 0 35px rgba(0,0,0,0.3);
 }
 
+.card-body {
+	padding: 0.6em
+}
+
+.card-img-top {
+	max-height: 13em;
+	overflow: hidden;
+}
+
+.card-img-top img {
+	height: auto;
+	width: 100%;
+}
+
+.single {
+	height: auto;
+	margin-top: 3em;
+}
+
+.autoheight {
+	height: auto;
+	margin-top: 3em;
+}
+
+.single img, .autoheight img {
+	border-radius: 0;
+}
+
+.single:hover {
+	border-color: #eee !important;
+	transition: 0.2s;
+	box-shadow: none;
+}
+
+.fullsize {
+	max-height: none !important;
+	overflow: visible;
+}
+
 .no-transition {
   -webkit-transition: height 0.001s;
   -moz-transition: height 0.001s;
   -ms-transition: height 0.001s;
   -o-transition: height 0.001s;
   transition: height 0.001s;
+}
+
+.navbar {
+	margin-top: 3.4em;
 }
 
 a.nav-item.nav-link {
@@ -328,6 +238,7 @@ a.nav-item.nav-link {
 	text-decoration: none;
     color: #3C3C3B !important;
     padding: 0.54em 1.1em !important;
+    box-shadow: 0 0 2px rgba(0,0,0,0.01);
 }
 
 a.nav-item.nav-link:after {
@@ -339,6 +250,7 @@ a.nav-item.nav-link:after {
 	height: 0;
 	border: 0.625em solid transparent;
 	border-right-color: #f4f2f5;
+	background-color: #fff;
 	border-left: 0;
 	border-bottom: 0;
 	margin-top: -0.312em;
@@ -346,8 +258,9 @@ a.nav-item.nav-link:after {
 }
 
 a.nav-item.nav-link:hover {
-	color: orange !important;
+	color: blue !important;
 	transition: 0.2s;
+	box-shadow: 0 0 13px rgba(0,0,0,0.1);
 }
 
 a.nav-item.nav-link .active {
@@ -357,6 +270,7 @@ a.nav-item.nav-link .active {
 	font-size: 0.9em;
 	list-style: none;
 	margin-left:-40px;
+	color: #3C3C3B
 }
 
 .footer ul li {
@@ -419,24 +333,16 @@ article img {
 	color: #888;
 }
 
-.card-img-top {
-	max-height: 13em;
-	overflow: hidden;
-}
-
-.card-img-top img {
-	height: auto;
-	width: 100%;
-}
-
 .logo-container {
 	position: relative;
 	padding-bottom: 1em;
 	padding-top: 4em;
+	margin-left: -1em;
 }
 
 .logo {
 	position: relative;
+	
 }
 
 .navbar-toggler {
@@ -447,10 +353,175 @@ article img {
 	background: white;
 }
 
-.btn .svg-inline--fa, .btn .svg-inline--fa {
-	margin-right: 0.3em;
-}
-
 .nobreak {
 	white-space: nowrap;
+}
+
+span.art {
+	background: #6EABCB;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span.climate {
+	background: #71B51E;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span.youth {
+	background: #F29805;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span.elderly {
+	background: #003DB1;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span.sport {
+	background: #d12e26;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+span:hover {
+	border-bottom: 2px solid;
+}
+
+span.art:hover {
+	border-color: #6EABCB;
+}
+span.climate:hover {
+	border-color: #71B51E;
+}
+span.youth:hover {
+	border-color: #F29805;
+}
+span.elderly:hover {
+	border-color: #003DB1;
+}
+span.sport:hover {
+	border-color: #d12e26;
+}
+
+.category-kunst .card {
+	border-color: #6EABCB;
+	color: #000;
+}
+.btn.category-kunst {
+	background: #6EABCB;
+	border: 5px solid #6EABCB;
+}
+.btn.category-kunst:hover {
+	background: #6EABCB;
+	border-color: rgba(255, 255, 255, 0.3);
+}
+
+.category-klima .card {
+	border-color: #04D4AA;
+	color: #000;
+}
+.btn.category-klima {
+	background: #71B51E;
+	border: 5px solid #71B51E;
+}
+.btn.category-klima:hover {
+	background: #71B51E;
+	border-color: rgba(255, 255, 255, 0.3);
+
+}
+.category-jugend .card {
+	border-color: #F29805;
+	color: #000;
+}
+.btn.category-jugend {
+	background: #F29805;
+	border: 5px solid #F29805;
+}
+.btn.category-jugend:hover {
+	background: #F29805;
+	border-color: rgba(255, 255, 255, 0.3);
+}
+
+.category-altenpflege .card {
+	border-color: #003DB1;
+	color: #000;
+}
+.btn.category-altenpflege {
+	background: #003DB1;
+	border: 5px solid #003DB1;
+}
+.btn.category-altenpflege:hover {
+	background: #003DB1;
+	border-color: rgba(255, 255, 255, 0.3);
+}
+.category-sport .card {
+	border-color: #f5c400;
+	color: #000;
+}
+.btn.category-sport {
+	background: #d12e26;
+	border: 5px solid #d12e26;
+}
+.btn.category-sport:hover {
+	background: #d12e26;
+	border-color: rgba(255, 255, 255, 0.3);
+}
+
+span.Jugend {
+	background: #F29805;
+}
+
+span.Jugend::before {
+    content: "\f581";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
+span.Sport {
+	background: #d12e26;
+}
+
+span.Sport::before {
+	content: "\f45e";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
+span.Senioren {
+	background: #003DB1;
+}
+
+span.Senioren::before {
+	content: "\f004";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
+span.Klima {
+	background: #71B51E;
+}
+
+span.Klima::before {
+	content: "\f06c";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
+}
+
+span.Kunst {
+	background: #6EABCB;
+}
+
+span.Kunst::before {
+	content: "\f618";
+	font-family: "Font Awesome 5 Pro"; 
+	font-weight: 900;
+	display: none;
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying posts
+ * Template part for displaying categories
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -8,12 +8,15 @@
  */
 
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('col-md-10 offset-md-1 col-lg-8 offset-lg-2'); ?>>
 
-	<header>
-	<div class="card mb-3 single">
+<article>
+
+
+
+	<section>
+	<a href="<?php the_permalink() ?>">
+		<div class="card autoheight mb-5">
 			<div class="card-img-top fullsize">
-				<a href="/projekte"><button type="button" class="back-btn btn-light btn text-left"><i class="fas fa-arrow-left"></i> Alle Projekte</button></a>
 				<?php the_post_thumbnail(); ?>
 			</div>
 			<div class="card-body d-flex align-items-start flex-column bd-highlight">
@@ -52,12 +55,6 @@
 			</div>
 		</div>
 		
-	</header><!-- .entry-header -->
-
-	<div class="article-content mt-5">
-	
-		<?php the_content(); ?>
-		
-	</div><!-- .entry-content -->
+	</section><!-- .entry-header --></a>
 
 </article><!-- #post-<?php the_ID(); ?> -->

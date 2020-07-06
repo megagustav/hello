@@ -11,31 +11,28 @@
 ?>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class('col-md-10 offset-md-1 col-lg-8 offset-lg-2'); ?>>
-
 	<?php the_content(); ?>
-	
-	<h2 class="mt-5">Unsere Projekte</h2>
 </section>
 
 <?php get_template_part( 'template-parts/content', 'projects' ); ?>
 
 <section class="mt-5 pt-5 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 	<hr>
-	<h2>Transparenz</h2>
+	<h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>transparenz" target="_blank">Transparenz</a></h2>
 	<p>95 Prozent der uns anvertrauten Spendengelder werden direkt in unsere Projekte vor Ort eingesetzt — das ist unser Versprechen. Dass wir dieses Versprechen halten, belegen wir mit größtmöglicher Transparenz durch Zahlen, Daten und Fakten sowie durch regelmäßige Anwesenheit von HELLO und dem Stiftungs-Team bei Projekt-Realisierungen vor Ort.</p>
 	<p><a href="transparenz">Mehr über Transparenz <i class="far fa-arrow-circle-right"></i></a></p>
 </section>
 
 <section class="mt-5 pt-5 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 <hr>
-	<h2>Mitmachen</h2>
+	<h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>mitmachen" target="_blank">Mitmachen</a></h2>
 	<p>Als unabhängige Stiftung möchten wir jeden dazu bewegen, aktiv zu werden &mdash; ob Einzelperson oder Unternehmen. Deshalb schaffen wir für alle die Möglichkeit, sich für gesellschaftlichen Wandel einzusetzen und Verantwortung zu übernehmen. Schreiben Sie uns, wenn Sie ein interessantes Projekt leiten, das unseren Förderkriterien entspricht und sie nach einem verläßlichen Partner suchen. </p>
 	<p><a href="mitmachen">Machen Sie mit! <i class="far fa-arrow-circle-right"></i></a></p>
 </section>
 
 <section class="mt-5 pt-5 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 <hr>
-	<h2>Vierteljährlicher Newsletter</h2>
+	<h2>Newsletter</h2>
 	<p>Wollen Sie über neue Projekte informiert bleiben? Haben Sie bereits ein Projekt unterstützt und möchten erfahren, sobald wir Neuigkeiten haben? Unser kostenloser Newsletter wird einmalig pro Quartal verschickt.</p>
 	<form class="form-inline mt-5">
 	  <label class="sr-only" for="inlineFormInputGroupUsername2">E-Mail Adresse</label>
