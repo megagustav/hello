@@ -163,8 +163,8 @@ span.project_details:hover {
 }
 
 .card {
-	border-radius: 0.35em;
-	height: 30em;
+	border-radius: 0.6em;
+	height: 28em;
 	border: 3px solid #eee !important;
 	transition: 0.2s;
 	box-shadow: 0 6px 0 rgba(0,0,0,0), 0 0 15px rgba(0,0,0,0.02);
@@ -183,30 +183,37 @@ span.project_details:hover {
 .card-img-top {
 	max-height: 13em;
 	overflow: hidden;
+	border-top-left-radius: 0.4em;
+	border-top-right-radius: 0.4em;
 }
 
 .card-img-top img {
 	height: auto;
+	min-height: 210px;
 	width: 100%;
 }
 
 .single {
-	height: auto;
+	height: auto !important;
 	margin-top: 3em;
+	border: none !important;
 }
 
 .autoheight {
-	height: auto;
+	height: auto !important;
 	margin-top: 3em;
 }
 
-.single img, .autoheight img {
-	border-radius: 0;
+.single img {
+	border-radius: 0.4em;
+}
+
+.autoheight img {
+	border-bottom-left-radius: 0em;
+	border-bottom-right-radius: 0em;
 }
 
 .single:hover {
-	border-color: #eee !important;
-	transition: 0.2s;
 	box-shadow: none;
 }
 
@@ -319,6 +326,12 @@ article img {
 @media screen and (min-width: 950px) {
 	.wp-block-image figure.alignleft {
 		margin-left: -20% !important;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	.card {
+		height: 24em;
 	}
 }
 

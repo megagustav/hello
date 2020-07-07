@@ -16,13 +16,13 @@
 				<a href="/projekte"><button type="button" class="back-btn btn-light btn text-left"><i class="fas fa-arrow-left"></i> Alle Projekte</button></a>
 				<?php the_post_thumbnail(); ?>
 			</div>
-			<div class="card-body d-flex align-items-start flex-column bd-highlight">
-				<div class="mb-auto p-2 bg-white">
-					<h5 class="card-title">
+			<div class="card-body d-flex p-0 pt-4 align-items-start flex-column bd-highlight">
+				<div class="mb-auto p-0 bg-white">
+					<h2 class="card-title">
 						<?php the_title(); ?>
-					</h5>
+					</h2>
 				</div>
-				<div class="p-2 bg-white">
+				<div class="p-0 bg-white">
 					<small class="text-muted">
 						<p class="card-text">
 							<?php
@@ -53,6 +53,8 @@
 		</div>
 		
 	</header><!-- .entry-header -->
+	
+	<hr class="mt-5">
 
 	<div class="article-content mt-5">
 	

@@ -49,12 +49,12 @@
 							<?php the_post_thumbnail(); ?>
 						</div>
 					  	<div class="card-body d-flex align-items-start flex-column bd-highlight">
-							<div class="mb-auto p-2 bg-white">
+							<div class="mb-auto px-2 pt-2">
 								<h5 class="card-title">
 									<?php the_title(); ?>
 								</h5>
 							</div>
-							<div class="p-2 bg-white">
+							<div class="px-2 pb-2 bg-white">
 								<small class="text-muted">
 									<p class="card-text">
 										<?php
