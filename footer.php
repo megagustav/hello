@@ -20,7 +20,7 @@
 					Wir freuen uns auf Sie!
 				</div>
 				<div class="col-md-3">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakt"><button type="button" class="btn btn-block btn-primary"><i class="fas fa-lg fa-phone-square"></i> Kontakt</button></a>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>kontakt"><button type="button" class="btn btn-block btn-primary"><i class="fas fa-lg fa-phone-square"></i>Kontakt</button></a>
 				</div>
 			</div>
 		</div>
@@ -31,10 +31,10 @@
 			<div class="text-left mb-5 col-4 col-sm-3 px-0">
 				<!--h2>Lala</h2-->
 				<ul>
-					<li><i class="fab fa-fw fa-instagram"></i> Instagram</li>
-					<li><i class="fab fa-fw fa-facebook-f"></i> Facebook</li>
-					<li><i class="far fa-fw fa-envelope"></i> E-Mail</li>
-					<li><i class="far fa-fw fa-at"></i> Newsletter</li>
+					<li><a href="http://facebook.com/"><i class="fab fa-fw fa-instagram"></i>Instagram</a></li>
+					<li><a href="http://facebook.com/"><i class="fab fa-fw fa-facebook-f"></i>Facebook</a></li>
+					<li><a href="mailto:hello@hello-die-stiftung.com/"><i class="far fa-fw fa-envelope"></i>E-Mail</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#newsletter"><i class="far fa-fw fa-at"></i>Newsletter</a></li>
 				</ul>
 			</div>
 			<div class="col-4 text-left text-center text-sm-left mb-5 col-sm-3 px-0">

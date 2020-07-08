@@ -1,13 +1,21 @@
 html {
-	font-family: ten-oldstyle, serif;
 }
 
 body {
 	color: #3C3C3B;
 }
 
+body.single {
+	margin-top: 0em;
+}
+
 main:not(body.home) {
 	margin-top: 2em;
+}
+
+.site-header {
+	background: #f4f6fa;
+	padding-bottom: 2.4em;
 }
 
 #page {
@@ -29,11 +37,12 @@ a {
 
 a h2, h2 a {
 	color: #3C3C3B;
+	transition: 0.2s;
 }
 
 small a {
 	text-decoration: underline;
-	color: #6c757d!important;
+	color: #6c757d !important;
 }
 
 a:hover {
@@ -41,7 +50,32 @@ a:hover {
 	text-decoration: none;
 }
 
-p {
+a.homelink .fa-arrow-right {
+	transition: 0.2s;
+	margin-left: 0.3em;
+}
+
+a.homelink:hover .fa-arrow-right {
+	transition: 0.2s;
+	margin-left: 0.43em;
+}
+
+h2, h2 .fa-arrow-right {
+	transition: 0.2s;
+	color: #3C3C3B;
+}
+
+h2:hover, h2:hover .fa-arrow-right {
+	color: darkblue;
+	transition: 0.2s;
+}
+
+h2:hover .fa-arrow-right {
+	margin-left: 0.4em;
+	transition: 0.2s;
+}
+
+p, .fundingbar {
 	font-size: 1.4em;
 	line-height: 1.3;
 	font-family: 'interstate', sans-serif;
@@ -118,12 +152,77 @@ span.project_details {
 
 .tag {
 	color: #7c7f8f;
-	background: #edeff5;
+	background: #f4f6fa;
 	margin-top: 0.35em;
 }
 
 span.project_details:hover {
 	border: none;
+}
+
+.fundingbar {
+	height: 3em;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	border-radius: 0.4em;
+	overflow: hidden;
+	background: #65d260;
+}
+
+.funding__label {
+	background: rgba(0,0,0,0);	
+}
+
+.fundingbar section {
+	height: 3em;
+	line-height: 3em;
+	text-align: left;
+	color: darkgreen;
+}
+.fundingbar section:last-of-type {
+	flex: auto;
+	text-align: right;
+}
+
+.fundingbar section span {
+	padding-left: 1em;
+}
+
+span.amount {
+	float: left;
+	padding: 0.1em;
+}
+
+.fundingbar section span:hover {
+	border-bottom: none;
+}
+.fundingbar section span:last-of-type {
+	padding-right: 1em;
+}
+
+.leaflet-map, .leaflet-container, .leaflet-retina, .leaflet-safari, 
+.leaflet-fade-anim, .leaflet-grab, .leaflet-touch-drag {
+	border-radius: 1em;
+}
+
+span.funding {
+	color: black;
+	padding: 0 0.4em;
+	float: left;
+}
+
+span.goal {
+	float: right;
+}
+
+#funding {
+	background: rgba(0,0,0,0);
+	z-index: 2
+}
+#goal {
+	background: #f4f6fa;
+	z-index: 1
 }
 
 /*span.category::before {
@@ -134,13 +233,24 @@ span.project_details:hover {
 	font-family: 'pinecone-mvb', sans-serif;
 }
 
-.nobreak .svg-inline--fa, .nobreak .svg-inline--fa {
+li .svg-inline--fa, .nobreak .svg-inline--fa, .nobreak .svg-inline--fa, button .svg-inline--fa {
 	margin-right: 0.3em;
+}
+
+h2 .fa-arrow-right {
+	margin-left: 0.3em;
+	color: #f4f6fa;
+	transition: 0.2s;
 }
 
 .btn-primary {
 	background-color: blue;
 	border: 1px solid blue;
+}
+
+.btn-primary:hover {
+	background-color: darkblue;
+	border: 1px solid darkblue;
 }
 
 .alert-primary {
@@ -165,7 +275,7 @@ span.project_details:hover {
 .card {
 	border-radius: 0.6em;
 	height: 28em;
-	border: 3px solid #eee !important;
+	border: 3px solid #f4f6fa !important;
 	transition: 0.2s;
 	box-shadow: 0 6px 0 rgba(0,0,0,0), 0 0 15px rgba(0,0,0,0.02);
 }
@@ -240,12 +350,12 @@ a.nav-item.nav-link {
 	position: relative;
 	font-family: 'pinecone-mvb', sans-serif;
 	font-weight: 400;
-	background-color: #f4f2f5;
+	background-color: #fff;
 	border-radius: 0.5em;
 	text-decoration: none;
     color: #3C3C3B !important;
     padding: 0.54em 1.1em !important;
-    box-shadow: 0 0 2px rgba(0,0,0,0.01);
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
 }
 
 a.nav-item.nav-link:after {
@@ -256,8 +366,8 @@ a.nav-item.nav-link:after {
 	width: 0;
 	height: 0;
 	border: 0.625em solid transparent;
-	border-right-color: #f4f2f5;
-	background-color: #fff;
+	border-right-color: #fff;
+	background-color: transparent;
 	border-left: 0;
 	border-bottom: 0;
 	margin-top: -0.312em;
@@ -267,7 +377,7 @@ a.nav-item.nav-link:after {
 a.nav-item.nav-link:hover {
 	color: blue !important;
 	transition: 0.2s;
-	box-shadow: 0 0 13px rgba(0,0,0,0.1);
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 a.nav-item.nav-link .active {
@@ -286,6 +396,10 @@ a.nav-item.nav-link .active {
 
 .footer ul li a {
 	color: #000;
+}
+
+.footer ul li a:hover {
+	text-decoration: underline;
 }
 
 .footer h2 {

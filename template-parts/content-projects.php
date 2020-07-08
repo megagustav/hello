@@ -8,7 +8,7 @@
  */
 
 ?>
-<section id="post-<?php the_ID(); ?>" <?php post_class('col-md-10 offset-md-1 col-lg-8 offset-lg-2'); ?>>
+<section id="post-<?php the_ID(); ?> projekte" <?php post_class('col-md-10 offset-md-1 col-lg-8 offset-lg-2'); ?>>
 	
 	<h2 class="mt-5"><a href="<?php echo esc_url( home_url( '/' ) ); ?>projekte" target="_blank">Projekte</a></h2>
 </section>

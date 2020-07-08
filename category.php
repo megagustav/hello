@@ -13,7 +13,7 @@ get_header();
 	<section class="mt-5 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 		
 	<h2 class="text-secondary mb-3"><span class="project_details category <?php single_cat_title(); ?>"> <?php single_cat_title(); ?>-Projekte</span></h2>
-	<a href="/projekte"><button type="button" class="px-0 mb-3 btn-link btn text-left"><i class="fas fa-arrow-left"></i> Alle Projekte</button></a>
+	<a href="/projekte"><button type="button" class="px-0 mb-3 btn-link btn text-left"><i class="fas fa-arrow-left"></i>Alle Projekte</button></a>
 		
 		<?php
 	

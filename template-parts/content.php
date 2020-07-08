@@ -54,7 +54,24 @@
 		
 	</header><!-- .entry-header -->
 	
-	<hr class="mt-5">
+	<?php 
+		$current = get_post_custom_values($key = 'Bisherige Spenden');
+		$goal = get_post_custom_values($key = 'Ziel');
+		$percent = number_format(($current[0] / $goal[0]) *100, 0);
+		$goal = number_format($goal[0], 0, ',', '.');
+		$current = number_format($current[0], 0, ',', '.');
+	?>	
+	
+	<div class="fundingbar mt-4">
+		<section id="funding" style="width: <?php echo $percent; ?>%"><span class="amount"><?php echo $percent; ?>% erreicht</span></section>
+		<section id="goal"></section>
+	</div>
+	<div class="fundingbar funding__label">
+		<section><span class="funding">Spenden: <?php echo $current; ?>€</span><section>
+		<section><span class="funding goal">Ziel: <?php echo $goal; ?>€</span><section>	
+	</div>
+	
+	<hr class="mt-3">
 
 	<div class="article-content mt-5">
 	

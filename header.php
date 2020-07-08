@@ -36,9 +36,9 @@
 <div id="page" class="container">
 	<a class="sr-only sr-only-focusable" href="#primary"><?php esc_html_e( 'Skip to content', 'hello' ); ?></a>
 
-	<header id="masthead">
+	<header id="masthead" class="mb-5">
 								 
-		<div class="row px-3">
+		<div class="row px-3 site-header">
 			<div class="offset-lg-2 offset-md-1 col-md-7 col-lg-6 col-xl-5">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 					<!--img src="/hello_logo.png" class="img-fluid logo mt-5"/-->
