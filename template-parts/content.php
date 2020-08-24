@@ -54,7 +54,7 @@
 		
 	</header><!-- .entry-header -->
 	
-	<?php 
+	<!--?php // Donation Counter
 		$current = get_post_custom_values($key = 'Bisherige Spenden');
 		$goal = get_post_custom_values($key = 'Ziel');
 		$percent = number_format(($current[0] / $goal[0]) *100, 0);
@@ -71,7 +71,7 @@
 		<section><span class="funding goal">Ziel: <?php echo $goal; ?>€</span><section>	
 	</div>
 	
-	<hr class="mt-3">
+	<hr class="mt-3"-->
 
 	<div class="article-content mt-5">
 	

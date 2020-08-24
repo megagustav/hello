@@ -33,7 +33,7 @@
 <section class="mt-5 pt-5 col-md-10 offset-md-1 col-lg-8 offset-lg-2" id="newsletter">
 <hr>
 	<h2>Newsletter</h2>
-	<p>Wollen Sie über neue Projekte informiert bleiben? Haben Sie bereits ein Projekt unterstützt und möchten erfahren, sobald wir Neuigkeiten haben? Unser kostenloser Newsletter wird einmalig pro Quartal verschickt.</p>
+	<p>Wollen Sie über neue Projekte informiert bleiben? Haben Sie bereits ein Projekt unterstützt und möchten erfahren, sobald wir Neuigkeiten haben? Melden Sie sich für unseren kostenlosen Newsletter an.</p>
 	<form class="form-inline mt-5">
 	  <label class="sr-only" for="inlineFormInputGroupUsername2">E-Mail Adresse</label>
 	  <div class="input-group mb-2 mr-sm-2 col-sm-9 px-0">

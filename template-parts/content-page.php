@@ -13,21 +13,20 @@
 
 	<!--?php hello_post_thumbnail(); ?-->
 	
-	<div class="row">
-		<h2><?php the_title(); ?></h2>
-		
-		<div class="entry-content">
-			<?php
-			the_content();
+	
+	<h2><?php the_title(); ?></h2>
+	
+	
+	<?php
+	the_content();
 
-			wp_link_pages(
-				array(
-					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'hello' ),
-					'after'  => '</div>',
-				)
-			);
-			?>
-		</div><!-- .entry-content -->
-	</div>
+	wp_link_pages(
+		array(
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'hello' ),
+			'after'  => '</div>',
+		)
+	);
+	?>
+	
 
 </article><!-- #post-<?php the_ID(); ?> -->

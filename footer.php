@@ -31,8 +31,8 @@
 			<div class="text-left mb-5 col-4 col-sm-3 px-0">
 				<!--h2>Lala</h2-->
 				<ul>
-					<li><a href="http://facebook.com/"><i class="fab fa-fw fa-instagram"></i>Instagram</a></li>
-					<li><a href="http://facebook.com/"><i class="fab fa-fw fa-facebook-f"></i>Facebook</a></li>
+					<li><a href="https://instagram.com/HELLO-Die-Stiftung"><i class="fab fa-fw fa-instagram"></i>Instagram</a></li>
+					<li><a href="https://www.facebook.com/HELLO-Die-Stiftung-105434947950160"><i class="fab fa-fw fa-facebook-f"></i>Facebook</a></li>
 					<li><a href="mailto:hello@hello-die-stiftung.com/"><i class="far fa-fw fa-envelope"></i>E-Mail</a></li>
 					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>#newsletter"><i class="far fa-fw fa-at"></i>Newsletter</a></li>
 				</ul>
