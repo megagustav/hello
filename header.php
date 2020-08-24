@@ -27,13 +27,13 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/overwrites.css">
     <link rel="stylesheet" href="https://use.typekit.net/puq5ttk.css">
 
-	<link rel="icon" type="image/png" href="favicon_96.png" sizes="96x96">
-	<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon_512.png">
+	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon_96.png" sizes="96x96">
+	<link rel="apple-touch-icon" sizes="512x512" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon_512.png">
 	<meta name="description" content="Als Zuhause für Ihren guten Willen bieten wir nachhaltiges Engagement — zum Nutzen von Menschen, verbessern und weiterentwickeln wollen.">
 	<meta property="og:title" content="HELLO – Die Stiftung">
 	<meta name="og:description" content="Als Zuhause für Ihren guten Willen bieten wir nachhaltiges Engagement — zum Nutzen von Menschen, verbessern und weiterentwickeln wollen.">
 	<meta property="og:image:type" content="image/png" />
-	<meta property="og:image" content="screenshot.png">
+	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/screenshot.png">
 	<meta property="og:image:alt" content="HELLO Logo" />
 	<meta property="og:locale" content="de_DE" />
 
