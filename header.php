@@ -62,7 +62,7 @@
 			</div>
 			<div class="col-md-4">
 				<nav class="navbar navbar-expand-md navbar-light">
-				  <button id="navtoggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				  <button id="navtoggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="toTop()">
 					<span class="navbar-toggler-icon"></span>
 				  </button>
 					  <div class="collapse navbar-nav flex-column navbar-collapse" id="navbarNavAltMarkup">
