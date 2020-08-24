@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/overwrites.css">
     <link rel="stylesheet" href="https://use.typekit.net/puq5ttk.css">
 
+	<meta name="description" content="Als Zuhause für Ihren guten Willen bieten wir nachhaltiges Engagement — zum Nutzen von Menschen, verbessern und weiterentwickeln wollen.">
+	<meta name="og:description" content="Als Zuhause für Ihren guten Willen bieten wir nachhaltiges Engagement — zum Nutzen von Menschen, verbessern und weiterentwickeln wollen.">
+	<meta property="og:title" content="HELLO – Die Stiftung">
+	<meta property="og:image" content="screenshot.png">
+
 	<?php wp_head(); ?>
 </head>
 
