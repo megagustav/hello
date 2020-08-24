@@ -449,7 +449,7 @@ article img {
 	}
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 	.wp-block-image .alignright, .wp-block-image .alignleft  {
 		float: none !important;
 		margin: 0 auto !important;
