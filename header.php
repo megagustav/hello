@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/overwrites.css">
     <link rel="stylesheet" href="https://use.typekit.net/puq5ttk.css">
 
+	<link rel="icon" type="image/png" href="favicon_96.png" sizes="96x96">
+	<link rel="apple-touch-icon" sizes="512x512" href="apple-touch-icon_512.png">
 	<meta name="description" content="Als Zuhause für Ihren guten Willen bieten wir nachhaltiges Engagement — zum Nutzen von Menschen, verbessern und weiterentwickeln wollen.">
 	<meta property="og:title" content="HELLO – Die Stiftung">
 	<meta name="og:description" content="Als Zuhause für Ihren guten Willen bieten wir nachhaltiges Engagement — zum Nutzen von Menschen, verbessern und weiterentwickeln wollen.">
