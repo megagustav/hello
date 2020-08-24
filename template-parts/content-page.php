@@ -9,7 +9,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('col-md-9'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('col-md-9 px-0'); ?>>
 
 	<!--?php hello_post_thumbnail(); ?-->
 	
