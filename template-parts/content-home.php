@@ -89,7 +89,7 @@
 		<div id="sib-container" class="sib-container--large sib-container--vertical">
 		  <form class="form-inline mt-5" id="sib-form" method="POST" action="https://45aab95b.sibforms.com/serve/MUIEANlCwQ8rBeWUMt7xCPy4apsMBXBypuBHBf0IS6YjQKxmyHJMhb_Hgj4v7pIgI1oNlnQ6WpbFdv_5lbxgzSmcc2xnI40yJyARVOfPxkvwVHY-voIGmMhb8zJIn-JUVSGWM2mmE8mcV79z246m9lGRbkWfr_X0ZVh4SQvNdz-PU17UCEGTl7w78pZgJCR_wCYkE-jyAzHtasaa"
 			data-type="subscription">
-			<div class="mb-2 mr-sm-2 col-sm-9 px-0" style="">
+			<div class="mr-sm-2 col-sm-9 px-0" style="padding: 8px 0;">
 			  <div class="sib-input sib-form-block">
 				<div class="form__entry entry_block">
 				  <div class="form__label-row ">
@@ -108,7 +108,7 @@
 			  </div>
 			</div>
 			
-			<div style="">
+			<div style="padding: 8px 0;">
 			  <div class="sib-form-block" style="text-align: left">
 				<button class="sib-form-block__button sib-form-block__button-with-loader col-sm-2 btn btn-block btn-primary" form="sib-form" type="submit">
 				  <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
