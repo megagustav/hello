@@ -89,7 +89,7 @@
 		<div id="sib-container" class="sib-container--large sib-container--vertical">
 		  <form class="form-inline mt-5" id="sib-form" method="POST" action="https://45aab95b.sibforms.com/serve/MUIEANlCwQ8rBeWUMt7xCPy4apsMBXBypuBHBf0IS6YjQKxmyHJMhb_Hgj4v7pIgI1oNlnQ6WpbFdv_5lbxgzSmcc2xnI40yJyARVOfPxkvwVHY-voIGmMhb8zJIn-JUVSGWM2mmE8mcV79z246m9lGRbkWfr_X0ZVh4SQvNdz-PU17UCEGTl7w78pZgJCR_wCYkE-jyAzHtasaa"
 			data-type="subscription">
-			<div class="mb-2 mr-sm-2 col-sm-9 px-0" style="padding: 8px 0;">
+			<div class="mr-sm-2 col-sm-9 px-0" style="">
 			  <div class="sib-input sib-form-block">
 				<div class="form__entry entry_block">
 				  <div class="form__label-row ">
@@ -108,9 +108,9 @@
 			  </div>
 			</div>
 			
-			<div style="padding: 8px 0;">
+			<div style="col-sm-2">
 			  <div class="sib-form-block" style="text-align: left">
-				<button class="sib-form-block__button sib-form-block__button-with-loader col-sm-2 btn btn-block btn-primary" form="sib-form" type="submit">
+				<button class="sib-form-block__button sib-form-block__button-with-loader btn btn-block btn-primary" form="sib-form" type="submit">
 				  <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
 					<path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"
 					/>

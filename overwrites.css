@@ -713,3 +713,15 @@ span.Kunst::before {
 	min-height: none;
 	line-height: 1em;
 }
+
+.sib-form .entry__field {
+	-webkit-align-items: center;
+	align-items: center;
+	background: #fff;
+	border: 1px solid #c0ccda;
+	border-radius: 3px;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	margin: 0;
+	max-width: 100%;
+}
