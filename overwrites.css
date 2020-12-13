@@ -32,7 +32,7 @@ hr {
 }
 
 a {
-	color: blue;
+	color: #004085;
 }
 
 a h2, h2 a {
@@ -46,7 +46,7 @@ small a {
 }
 
 a:hover {
-	color: darkblue;
+	color: dark#004085;
 	text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ h2, h2 .fa-arrow-right {
 }
 
 h2:hover, h2:hover .fa-arrow-right {
-	color: darkblue;
+	color: dark#004085;
 	transition: 0.2s;
 }
 
@@ -146,7 +146,7 @@ span.project_details {
 
 .date {
 	color: #004085;
-	background: #e8f1fa;
+	background: #f4f6fa;
 	margin-top: 0.35em;
 }
 
@@ -244,23 +244,23 @@ h2 .fa-arrow-right {
 }
 
 .btn-primary {
-	background-color: blue;
-	border: 1px solid blue;
+	background-color: #004085;
+	border: 1px solid #004085;
 }
 
 .btn-primary:hover {
-	background-color: darkblue;
-	border: 1px solid darkblue;
+	background-color: dark#004085;
+	border: 1px solid dark#004085;
 }
 
 .alert-primary {
 	color: #004085;
-	background-color: #e8f1fa;
+	background-color: #f4f6fa;
 	border-color: #dcebfa;
 }
 
 .bg-light {
-	background-color: #e8f1fa;
+	background-color: #f4f6fa;
 	border: 1px solid #dcebfa;
 	border-radius: 0.5em;
 }
@@ -281,9 +281,9 @@ h2 .fa-arrow-right {
 }
 
 .card:hover {
-	border-color: blue !important;
+	border-color: #004085 !important;
 	transition: 0.2s;
-	box-shadow: 0 6px 0 blue, 0 0 35px rgba(0,0,0,0.3);
+	box-shadow: 0 6px 0 #004085, 0 0 35px rgba(0,0,0,0.3);
 }
 
 .card-body {
@@ -375,7 +375,7 @@ a.nav-item.nav-link:after {
 }
 
 a.nav-item.nav-link:hover {
-	color: blue !important;
+	color: #004085 !important;
 	transition: 0.2s;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -675,38 +675,26 @@ span.Kunst::before {
 /* NEWSLETTER */
 
 .sib-form {
-//	background-attachment: fixed;
-//	font-size: 16px;
 	font-family: sans-serif;
 	padding: 0;
 	margin: 0;
 }
 
 .sib-form__declaration {
-//	display: flex;
 	padding: 0;
-//	align-items: center;
 }
 
 #sib-container {
-//	background: #fff;
-//	margin: 0 auto;
 	padding: 0;
-//	display: inline-block;
-//	width: 100%;
 }
 
 .sib-form-block {
 	padding: 0;
-//	word-wrap: break-word;
-//	outline: none;
 }
 
 .sib-form .entry__error {
-//	color: #ff4949;
-//	font-size: .87055056rem;
 	line-height: 1.4rem;
-	padding: 1em 1em 0.7em;
+//	padding: 1em 1em 0.7em;
 }
 
 .sib-form-block__button-with-loader {
