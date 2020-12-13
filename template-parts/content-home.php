@@ -107,7 +107,7 @@
 			  </div>
 			</div>
 			
-			<div style="padding: 8px 0;">
+			<div class="btn-sib-form-block" style="padding: 8px 0;">
 			  <div class="sib-form-block" style="text-align: left">
 				<button class="sib-form-block__button sib-form-block__button-with-loader col-sm-2 btn btn-block btn-primary" form="sib-form" type="submit">
 				  <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
