@@ -681,3 +681,23 @@ span.Kunst::before {
 	padding: 0;
 	margin: 0;
 }
+
+.sib-form__declaration {
+//	display: flex;
+	padding: 0;
+//	align-items: center;
+}
+
+#sib-container {
+//	background: #fff;
+//	margin: 0 auto;
+	padding: 0;
+//	display: inline-block;
+//	width: 100%;
+}
+
+.sib-form-block {
+	padding: 0;
+//	word-wrap: break-word;
+//	outline: none;
+}
