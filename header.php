@@ -24,9 +24,9 @@
 	</script>
 	
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/overwrites.css">
     <link rel="stylesheet" href="https://use.typekit.net/puq5ttk.css">
 	<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/overwrites.css">
 
 	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon_96.png" sizes="96x96">
 	<link rel="apple-touch-icon" sizes="512x512" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon_512.png">
