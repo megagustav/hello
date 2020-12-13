@@ -99,6 +99,11 @@
 					</div>
 				  </div>
 	
+				  <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+				  </label>
+				  <label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4;">
+					Geben Sie bitte Ihre E-Mail-Adresse für die Anmeldung an.
+				  </label>
 				</div>
 			  </div>
 			</div>
@@ -117,12 +122,6 @@
 	
 			<input type="text" name="email_address_check" value="" class="input--hidden">
 			<input type="hidden" name="locale" value="de">
-			
-			<label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
-			</label>
-			<label class="entry__specification" style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#8390A4;">
-			Geben Sie bitte Ihre E-Mail-Adresse für die Anmeldung an, z. B. abc@xyz.com.
-			</label>
 		  </form>
 		</div>
 	  </div>
