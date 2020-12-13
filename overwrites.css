@@ -435,6 +435,10 @@ article img {
 	.wp-block-image figure.alignleft {
 		margin-left: -5% !important;
 	}
+	
+	.sib-form-block {
+		margin-top: -1.566em; 
+	}
 }
 
 @media screen and (min-width: 950px) {
