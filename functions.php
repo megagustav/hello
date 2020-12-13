@@ -189,7 +189,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 function atg_menu_classes($classes, $item, $args) {
   if($args->theme_location == 'menu-1') {
-    $classes[] = 'list-inline-item';
+	$classes[] = 'list-inline-item';
   }
   return $classes;
 }
@@ -242,3 +242,17 @@ $urls = array_diff( $urls, array( $emoji_svg_url ) );
 
 return $urls;
 }
+
+/**
+ * allow future posts
+ * */
+
+function onetarek_prevent_future_type( $post_data ) {
+if ( $post_data['post_status'] == 'future' && $post_data['post_type'] == 'post' )
+{
+$post_data['post_status'] = 'publish';
+}
+return $post_data;
+}
+add_filter('wp_insert_post_data', 'onetarek_prevent_future_type');
+remove_action('future_post', '_future_post_hook');

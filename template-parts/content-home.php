@@ -19,7 +19,7 @@
 <section class="mt-5 pt-5 col-md-10 offset-md-1 col-lg-8 offset-lg-2" id="transparenz">
 	<hr>
 	<h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>transparenz" target="_blank">Transparenz</a><i class="fas fa-arrow-right"></i></h2>
-	<p>95 Prozent der uns anvertrauten Spendengelder werden direkt in unsere Projekte vor Ort eingesetzt — das ist unser Versprechen. Dass wir dieses Versprechen halten, belegen wir mit größtmöglicher Transparenz durch Zahlen, Daten und Fakten sowie durch regelmäßige Anwesenheit von HELLO und dem Stiftungs-Team bei Projekt-Realisierungen vor Ort.</p>
+	<p>Die uns zur Verfügung stehenden Mittel werden direkt für unsere Projekte vor Ort eingesetzt. Dies belegen wir mit größtmöglicher Transparenz durch Zahlen, Daten und Fakten sowie durch regelmäßige Anwesenheit von HELLO und dem Stiftungs-Team bei Projektrealisierungen vor Ort.</p>
 	<p><a class="homelink" href="transparenz">Mehr über Transparenz<i class="far fa-arrow-right"></i></a></p>
 </section>
 
