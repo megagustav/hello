@@ -701,3 +701,15 @@ span.Kunst::before {
 //	word-wrap: break-word;
 //	outline: none;
 }
+
+.sib-form .entry__error {
+//	color: #ff4949;
+//	font-size: .87055056rem;
+	line-height: 1.4rem;
+	padding: 1em 1em 0.7em;
+}
+
+.sib-form-block__button-with-loader {
+	min-height: none;
+	line-height: 1em;
+}
