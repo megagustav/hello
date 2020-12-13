@@ -77,5 +77,40 @@ function toTop() {
 
 <?php wp_footer(); ?>
 
+
+<!-- START - We recommend to place the below code in footer or bottom of your website html  -->
+	<script>
+	  window.REQUIRED_CODE_ERROR_MESSAGE = 'Wählen Sie bitte einen Ländervorwahl aus.';
+	
+	  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Die eingegebenen Informationen sind nicht gültig. Bitte überprüfen Sie das Feldformat und versuchen Sie es erneut.";
+	
+	  window.REQUIRED_ERROR_MESSAGE = "Dieses Feld darf nicht leer sein. ";
+	
+	  window.GENERIC_INVALID_MESSAGE = "Die eingegebenen Informationen sind nicht gültig. Bitte überprüfen Sie das Feldformat und versuchen Sie es erneut.";
+	
+	
+	
+	
+	  window.translation = {
+		common: {
+		  selectedList: '{quantity} Liste ausgewählt',
+		  selectedLists: '{quantity} Listen ausgewählt'
+		}
+	  };
+	
+	  var AUTOHIDE = Boolean(0);
+	</script>
+	<script src="https://browser.sentry-cdn.com/5.27.4/bundle.min.js" integrity="sha384-yUnxX3o5D7+yEEIKDXlpygg+0Q2LdyklXwZVWUjc6fohGisYvhpyQbRvNYaDGtvU" crossorigin="anonymous">
+	</script>
+	<script>
+	  Sentry.init({
+		dsn: 'https://de7dde9e67384de6a2a88a024bb35691@sentry.io/1229482',
+		environment: 'production',
+	  });
+	</script>
+	<script src="https://sibforms.com/forms/end-form/build/main.js"></script>
+	
+	<!-- END - We recommend to place the above code in footer or bottom of your website html  -->
+
 	</body>
 </html>
