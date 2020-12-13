@@ -94,10 +94,7 @@
 				<div class="form__entry entry_block">
 				  <div class="form__label-row ">
 	
-					<div class="entry__field input-group">
-						<div class="input-group-prepend">
-							<div class="input-group-text">@</div>
-						</div>
+					<div class="entry__field">
 						<input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="E-Mail Adresse" data-required="true" required />
 					</div>
 				  </div>
