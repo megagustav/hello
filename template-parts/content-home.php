@@ -60,7 +60,7 @@
 	<p>Wollen Sie über neue Projekte informiert bleiben? Haben Sie bereits ein Projekt unterstützt und möchten erfahren, sobald wir Neuigkeiten haben? Melden Sie sich für unseren kostenlosen Newsletter an.</p>
 	
 	<!-- START - We recommend to place the below code where you want the form in your website html  -->
-	<div class="">
+	<div class="sib-form">
 	  <div id="sib-form-container">
 		<div id="error-message" class="sib-form-message-panel" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
 		  <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
@@ -86,11 +86,11 @@
 		  </div>
 		</div>
 		<div></div>
-		<div id="sib-container" class="">
+		<div id="sib-container" class="sib-container--large sib-container--vertical">
 		  <form id="sib-form" method="POST" action="https://45aab95b.sibforms.com/serve/MUIEANlCwQ8rBeWUMt7xCPy4apsMBXBypuBHBf0IS6YjQKxmyHJMhb_Hgj4v7pIgI1oNlnQ6WpbFdv_5lbxgzSmcc2xnI40yJyARVOfPxkvwVHY-voIGmMhb8zJIn-JUVSGWM2mmE8mcV79z246m9lGRbkWfr_X0ZVh4SQvNdz-PU17UCEGTl7w78pZgJCR_wCYkE-jyAzHtasaa"
 			data-type="subscription">
-			<div style="">
-			  <div class="">
+			<div style="padding: 8px 0;">
+			  <div class="sib-input sib-form-block">
 				<div class="form__entry entry_block">
 				  <div class="form__label-row form-inline mt-5">
 					  
